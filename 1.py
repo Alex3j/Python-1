@@ -1,0 +1,5 @@
+name = input("Введите имя: ")
+lastname = input("Ведите фамилию: ")
+byear = int(input("Введите год рождения: "))
+print(name+"_"+lastname+"_"+str(byear))
+print(lastname+"_"+name+"_"+str(byear+60))
